@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family:0 Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile Card */
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Social Icons */
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 8px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* About Page Styling */
+.about-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+    max-width: 90%;
+}
+
+.about-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: #555;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 15px 0;
+}
